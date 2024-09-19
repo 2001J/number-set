@@ -1,0 +1,30 @@
+# Ignore Mono specific files
+.mono
+
+# Ignore build directories
+NumberSetTest/bin
+NumberSetTest/obj
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore the .gitignore file itself
+#.gitignore
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore compiled files
+*.exe
+*.dll
+*.pdb
+
+# Ignore other common directories
+bin/
+obj/
